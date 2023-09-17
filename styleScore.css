@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f1ece6;
+}
+
+.container {
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.alert p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    background-color: rgb(236, 178, 161);
+    padding: 20px 35px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin-bottom: 60px;
+}
+
+.score-container {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+    height: 50px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+.rank {
+    color: white;
+    background-color: #ac4910;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.name {
+    padding-left: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.score-count {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    background-color: #fa5c00;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.time-count {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: #3f96dd;
+    border-radius: 50%;
+    font-size: 1.1rem;
+}
+
+a {
+    margin-bottom: 100px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 30px 20px;
+    background-color: #fa5c00;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+}
+
+a:hover {
+    background-color: #5c4d3b;
+}

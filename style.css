@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e9d6b3;
+}
+
+.container {
+    background-color: #f0c89c;
+    height: 500px;
+    width: 700px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 13px 13px 20px #9b9589,
+    -13px -13px 20px #d6d2cf;
+}
+
+.container h1 {
+    font-family: 'Sriracha', 'Roboto', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+    background: -webkit-linear-gradient(#000000, #c20707);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.link-container {
+    height: 250px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.link-container a {
+    color: #290c0c;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #f6f2f8;
+    width: 200px;
+    padding: 20px 0px 20px 15px;
+    border-radius: 18px;
+    transition: all .35s;
+}
+
+.link-container a:hover {
+    background-color: #70402a;
+    color: azure;
+    transform: translateX(5px);
+}

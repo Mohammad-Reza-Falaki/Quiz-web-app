@@ -1,0 +1,12 @@
+{
+  "name": "quizapp",
+  "version": "1.0.0",
+  "description": "Quiz App!",
+  "main": "GoToQues.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Falaki",
+  "license": "ISC"
+}

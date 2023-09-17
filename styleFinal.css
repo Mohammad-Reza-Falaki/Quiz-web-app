@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F1DAC4;
+}
+
+.container {
+    height: 700px;
+    width: 415px;
+    margin: 175px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    background-color: #404ee9;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+input {
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+}
+
+input:focus{
+    outline: none;
+    border-color: white;
+    background: white;
+    box-shadow: rgba(74, 74, 74, 0.24) 0px 3px 8px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options a {
+    color: #ffffff;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(75, 83, 81);
+    height: 70px;
+    width: 230px;
+    margin: 3px 0px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.25s;
+}
+
+.options a:hover {
+    background-color: rgb(226, 111, 111);
+}
